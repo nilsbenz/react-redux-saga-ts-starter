@@ -1,7 +1,7 @@
 import React from 'react';
-import Counter from "../pages/counter/Counter";
+import Counter from '../pages/counter/Counter';
 import {createMuiTheme, ThemeProvider} from '@material-ui/core/styles';
-import {pink, teal} from "@material-ui/core/colors";
+import {pink, teal} from '@material-ui/core/colors';
 
 const theme = createMuiTheme({
    palette: {

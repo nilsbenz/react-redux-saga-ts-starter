@@ -1,5 +1,4 @@
 #!groovy
-@Library("shared-libraries@v2.0.1") _
 
 //
 // Notification settings.
