@@ -1,0 +1,3 @@
+localhost:3030
+proxy /api http://grpc-testing-bff.ocp.internal.adcubum.com
+proxy / localhost:3000
