@@ -1,9 +1,9 @@
 import React from 'react';
 import {connect} from 'react-redux';
-import {AppState} from "../../../store";
-import {decrement, decrementAsync, increment, incrementAsync} from "../../../store/counter/actions";
-import {AppBar, Button, Container, Grid, Theme, Toolbar, Typography} from "@material-ui/core";
-import {makeStyles} from "@material-ui/core/styles";
+import {AppState} from '../../../store';
+import {decrement, decrementAsync, increment, incrementAsync} from '../../../store/counter/actions';
+import {AppBar, Button, Container, Grid, Theme, Toolbar, Typography} from '@material-ui/core';
+import {makeStyles} from '@material-ui/core/styles';
 
 const useStyles = makeStyles((theme: Theme) => ({
    title: {
@@ -57,7 +57,7 @@ const Counter: React.FC<Props> = ({increment, decrement, incrementAsync, decreme
             </Grid>
          </Container>
       </>
-   )
+   );
 };
 
 const mapStateToProps = ({counter}: AppState) => ({
